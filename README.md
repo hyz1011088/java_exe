@@ -1,1 +1,1 @@
-There are some java exercises from [www.mingribook.com](http://www.mingribook.com).
+There are some java exercises from [Java从入门到精通](http://www.mingribook.com).
