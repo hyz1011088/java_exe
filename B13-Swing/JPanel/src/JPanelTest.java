@@ -10,14 +10,14 @@ public class JPanelTest extends JFrame {
 
 	public JPanelTest() {
 		Container c = getContentPane();
-		// œ«ÕûžöÈÝÆ÷ÉèÖÃÎª2ÐÐ1ÁÐµÄÍøžñ²ŒŸÖ
+		//将整个容器设置成2行1列的网格布局
 		c.setLayout(new GridLayout(2, 1, 10, 10));
-		// ³õÊŒ»¯Ò»žöÃæ°å£¬ÉèÖÃ1ÐÐ3ÁÐµÄÍøžñ²ŒŸÖ
+		//初始化一个面板，设置1行3列的网格布局
 		JPanel p1 = new JPanel(new GridLayout(1, 3, 10, 10));
 		JPanel p2 = new JPanel(new GridLayout(1, 2, 10, 10));
 		JPanel p3 = new JPanel(new GridLayout(1, 2, 10, 10));
 		JPanel p4 = new JPanel(new GridLayout(2, 1, 10, 10));
-		p1.add(new JButton("1")); // ÔÚÃæ°åÖÐÌíŒÓ°ŽÅ¥
+		p1.add(new JButton("1")); // 在面板中添加按钮
 		p1.add(new JButton("1"));
 		p1.add(new JButton("2"));
 		p1.add(new JButton("3"));
@@ -27,11 +27,11 @@ public class JPanelTest extends JFrame {
 		p3.add(new JButton("7"));
 		p4.add(new JButton("8"));
 		p4.add(new JButton("9"));
-		c.add(p1); // ÔÚÈÝÆ÷ÖÐÌíŒÓÃæ°å
+		c.add(p1); // 在容器中添加面板
 		c.add(p2);
 		c.add(p3);
 		c.add(p4);
-		setTitle("ÔÚÕâžöŽ°ÌåÖÐÊ¹ÓÃÁËÃæ°å");
+		setTitle("在这个窗体中使用了面板");
 		setSize(420, 200);
 		setVisible(true);
 		setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
