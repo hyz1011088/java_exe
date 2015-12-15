@@ -1,0 +1,1 @@
+创建BorderLayoutPosion类，该类继承JFrame类成为窗体
