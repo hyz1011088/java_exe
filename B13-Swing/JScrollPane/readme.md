@@ -1,0 +1,1 @@
+创建JScrollPaneTest类，该类继承JFrame类成为窗体组件，在类中创建JScrollPane滚动面板组件，该滚动面板组件包括JTextArea文本组件
