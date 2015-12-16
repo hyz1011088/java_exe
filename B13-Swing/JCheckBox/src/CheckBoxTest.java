@@ -1,4 +1,5 @@
 
+
 import java.awt.*;
 import java.awt.event.*;
 
@@ -20,7 +21,7 @@ public class CheckBoxTest extends JFrame{
 		Container c=getContentPane();
 		setSize(200,160);
 		setVisible(true);
-		setTitle("Å¾Å½Ã‘Â¡Â¿Ã²ÂµÃ„ÃŠÂ¹Ã“Ãƒ");
+		setTitle("¸´Ñ¡¿òµÄÊ¹ÓÃ");
 		setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		c.setLayout(new BorderLayout());
 
@@ -35,7 +36,7 @@ public class CheckBoxTest extends JFrame{
 		jc1.addActionListener(new ActionListener(){
 			public void actionPerformed(ActionEvent e){
 				if(jc1.isSelected())
-				jt.append("Å¾Å½Ã‘Â¡Â¿Ã²1Â±Â»Ã‘Â¡Ã–Ã\n");
+				jt.append("¸´Ñ¡¿ò1±»Ñ¡ÖĞ\n");
 			}
 		});
 
@@ -43,7 +44,7 @@ public class CheckBoxTest extends JFrame{
 		jc2.addActionListener(new ActionListener(){
 			public void actionPerformed(ActionEvent e){
 				if(jc2.isSelected())
-				jt.append("Å¾Å½Ã‘Â¡Â¿Ã²2Â±Â»Ã‘Â¡Ã–Ã\n");
+				jt.append("¸´Ñ¡¿ò2±»Ñ¡ÖĞ\n");
 			}
 		});
 
@@ -51,7 +52,7 @@ public class CheckBoxTest extends JFrame{
 		jc3.addActionListener(new ActionListener(){
 			public void actionPerformed(ActionEvent e){
 				if(jc3.isSelected())
-				jt.append("Å¾Å½Ã‘Â¡Â¿Ã²3Â±Â»Ã‘Â¡Ã–Ã\n");
+				jt.append("¸´Ñ¡¿ò3±»Ñ¡ÖĞ\n");
 			}
 		});
 	}
