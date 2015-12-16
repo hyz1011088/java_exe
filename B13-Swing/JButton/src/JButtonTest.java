@@ -1,3 +1,4 @@
+
 import java.awt.*;
 import java.awt.event.*;
 import java.net.*;
@@ -13,31 +14,31 @@ public class JButtonTest extends JFrame {
 	public JButtonTest() {
 		URL url = JButtonTest.class.getResource("imageButtoo.jpg");
 		Icon icon = new ImageIcon(url);
-		setLayout(new GridLayout(3, 2, 5, 5)); // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ñ²¼¾Ö¹ï¿½ï¿½ï¿½ï¿½ï¿½
-		Container c = getContentPane(); // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+		setLayout(new GridLayout(3, 2, 5, 5)); // ÉèÖÃÍø¸ñ²¼¾Ö¹ÜÀíÆ÷
+		Container c = getContentPane(); // ´´½¨ÈÝÆ÷
 		for (int i = 0; i < 5; i++) {
-			// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å¥ï¿½ï¿½Í¬Ê±ï¿½ï¿½ï¿½Ã°ï¿½Å¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¼ï¿½ï¿½
+			// ´´½¨°´Å¥£¬Í¬Ê±ÉèÖÃ°´Å¥ÎÄ×ÖÓëÍ¼±ê
 			JButton J = new JButton("button" + i, icon);
-			c.add(J); // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó°ï¿½Å¥
+			c.add(J); // ÔÚÈÝÆ÷ÖÐÌí¼Ó°´Å¥
 			if (i % 2 == 0) {
-				J.setEnabled(false); // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»Ð©ï¿½ï¿½Å¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+				J.setEnabled(false); // ÉèÖÃÆäÖÐÒ»Ð©°´Å¥²»¿ÉÓÃ
 			}
 		}
-		JButton jb = new JButton(); // Êµï¿½ï¿½Ò»ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¼Æ¬ï¿½Ä°ï¿½Å¥
-		jb.setMaximumSize(new Dimension(90, 30)); // ï¿½ï¿½ï¿½Ã°ï¿½Å¥ï¿½ï¿½Í¼Æ¬ï¿½ï¿½Í¬ï¿½ï¿½Ð¡
-		jb.setIcon(icon); // Îªï¿½ï¿½Å¥ï¿½ï¿½ï¿½ï¿½Í¼ï¿½ï¿½
+		JButton jb = new JButton(); // ÊµÀý»¯Ò»¸öÃ»ÓÐÎÄ×ÖÓëÍ¼Æ¬µÄ°´Å¥
+		jb.setMaximumSize(new Dimension(90, 30)); // ÉèÖÃ°´Å¥ÓëÍ¼Æ¬ÏàÍ¬´óÐ¡
+		jb.setIcon(icon); // Îª°´Å¥ÉèÖÃÍ¼±ê
 		jb.setHideActionText(true);
-		jb.setToolTipText("Í¼Æ¬ï¿½ï¿½Å¥"); // ï¿½ï¿½ï¿½Ã°ï¿½Å¥ï¿½ï¿½Ê¾Îªï¿½ï¿½ï¿½ï¿½
-		jb.setBorderPainted(false); // ï¿½ï¿½ï¿½Ã°ï¿½Å¥ï¿½ß½ç²»ï¿½ï¿½Ê¾
-		jb.addActionListener(new ActionListener() { // Îªï¿½ï¿½Å¥ï¿½ï¿½Ó¼ï¿½ï¿½ï¿½ï¿½Â¼ï¿½
+		jb.setToolTipText("Í¼Æ¬°´Å¥"); // ÉèÖÃ°´Å¥ÌáÊ¾ÎªÎÄ×Ö
+		jb.setBorderPainted(false); // ÉèÖÃ°´Å¥±ß½ç²»ÏÔÊ¾
+		jb.addActionListener(new ActionListener() { // Îª°´Å¥Ìí¼Ó¼àÌýÊÂ¼þ
 					public void actionPerformed(ActionEvent e) {
-						// ï¿½ï¿½ï¿½ï¿½È·ï¿½Ï¶Ô»ï¿½ï¿½ï¿½
-						JOptionPane.showMessageDialog(null, "ï¿½ï¿½ï¿½ï¿½ï¿½Ô»ï¿½ï¿½ï¿½");
+						// µ¯³öÈ·ÈÏ¶Ô»°¿ò
+						JOptionPane.showMessageDialog(null, "µ¯³ö¶Ô»°¿ò");
 					}
 				});
-		c.add(jb); // ï¿½ï¿½ï¿½ï¿½Å¥ï¿½ï¿½Óµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+		c.add(jb); // ½«°´Å¥Ìí¼Óµ½ÈÝÆ÷ÖÐ
 		
-		setTitle("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¼Æ¬ï¿½Ä°ï¿½Å¥");
+		setTitle("´´½¨´øÎÄ×ÖÓëÍ¼Æ¬µÄ°´Å¥");
 		setSize(350, 150);
 		setVisible(true);
 		setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
