@@ -1,4 +1,3 @@
-package com.lzw;
 
 import java.awt.*;
 import java.awt.event.*;
