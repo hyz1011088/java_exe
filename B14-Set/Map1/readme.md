@@ -1,0 +1,1 @@
+创建UpdateStu,在主方法中创建Map集合，并获取Map集合中所有key对象集合和所有values值集合，最后遍历集合
