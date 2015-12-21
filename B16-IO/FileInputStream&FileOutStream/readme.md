@@ -1,0 +1,1 @@
+使用FileOutStream类向文件word.txt写入信息，然后通过FileInputStream类将文件中的数据读取到控制台上
