@@ -8,7 +8,7 @@ public class Student {
 		try{
 			FileInputStream fis = new FileInputStream("word.txt");
 			ProgressMonitorInputStream in = 
-				new ProgressMonitorInputStream(null,"¶ÁÈ¡ÎÄ¼þ",fis);
+				new ProgressMonitorInputStream(null,"reading",fis);
 		   while(in.read(b)!=-1){
 			   String s = new String(b);
 			   System.out.print(s);
