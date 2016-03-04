@@ -1,0 +1,8 @@
+在本实例中，创建类ThreadSafeTest.java，在该类中修改例中的run方法，把对num操作到代码设置在同步块中
+
+synchronized关键字可以实现同步机制
+
+```
+synchronized(Object){
+}
+```
