@@ -1,0 +1,1 @@
+在项目中创建ThreadSafeTest类，该类实现Runnable接口，主要实现模拟火车站售票系统的功能

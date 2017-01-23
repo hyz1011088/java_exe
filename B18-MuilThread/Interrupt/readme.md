@@ -1,0 +1,1 @@
+在项目中创建InterruptedSwing类，该类实现了Runnable接口，创建一个进度条，在表示进度条的线程中使用interrupted()方法。
