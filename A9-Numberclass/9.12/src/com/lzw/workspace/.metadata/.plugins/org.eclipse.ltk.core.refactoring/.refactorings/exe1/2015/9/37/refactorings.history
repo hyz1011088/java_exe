@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move element &apos;AutoboxTest.java&apos; to &apos;main.DataOnlyTest.java&apos;&#x0A;- Original project: &apos;exe1&apos;&#x0A;- Destination element: &apos;main.DataOnlyTest.java&apos;&#x0A;- Original element: &apos;AutoboxTest.java&apos;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;main{DataOnlyTest.java" element1="/src&lt;{AutoboxTest.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1441723979133" units="1" version="1.0"/>
-</session>
