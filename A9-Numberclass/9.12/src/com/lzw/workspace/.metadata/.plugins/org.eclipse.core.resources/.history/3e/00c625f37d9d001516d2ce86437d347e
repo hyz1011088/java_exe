@@ -1,0 +1,11 @@
+/*
+ * This is a java program to calculate the area of a rectangle.
+ */
+public class args_number{
+
+	public static void main(String[] args){
+		square s=new square(2, 4);
+		System.out.println(s.cal());
+	}
+
+}

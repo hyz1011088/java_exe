@@ -1,0 +1,18 @@
+
+public class hi {
+
+	static int a=1;
+	private static String say= "我要学会你";
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("你好！ Java "+say);
+		System.out.println(a);
+		boolean b=(1<2);
+		System.out.print(b);
+		String s=new String("hello world!");
+		System.out.print(s);
+		
+
+	}
+
+}
